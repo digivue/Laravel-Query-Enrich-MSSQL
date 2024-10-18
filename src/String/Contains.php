@@ -1,10 +1,10 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\String;
+namespace digivue\LaravelQueryEnrichMSSQL\String;
 
 use Illuminate\Support\Facades\DB;
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrichMSSQL\DBFunction;
+use digivue\LaravelQueryEnrichMSSQL\QE;
 
 /**
  * Determines if a given string contains a given substring.

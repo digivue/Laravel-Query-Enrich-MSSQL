@@ -1,10 +1,10 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\String;
+namespace digivue\LaravelQueryEnrichMSSQL\String;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\EDatabaseEngine;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrichMSSQL\DBFunction;
+use digivue\LaravelQueryEnrichMSSQL\EDatabaseEngine;
+use digivue\LaravelQueryEnrichMSSQL\QE;
 
 /**
  * Extracts a substring from a string starting at a specified position with optional length.

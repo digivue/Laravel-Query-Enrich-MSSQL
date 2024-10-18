@@ -1,10 +1,10 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Advanced\CaseExpression;
+namespace digivue\LaravelQueryEnrichMSSQL\Advanced\CaseExpression;
 
 use Illuminate\Support\Arr;
-use sbamtr\LaravelQueryEnrich\Condition\ConditionParser;
-use sbamtr\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrichMSSQL\Condition\ConditionParser;
+use digivue\LaravelQueryEnrichMSSQL\DBFunction;
 
 /**
  * This class allows chaining of WHEN...THEN clauses and an optional ELSE clause

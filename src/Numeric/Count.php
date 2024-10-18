@@ -1,9 +1,9 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Numeric;
+namespace digivue\LaravelQueryEnrichMSSQL\Numeric;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrichMSSQL\DBFunction;
+use digivue\LaravelQueryEnrichMSSQL\QE;
 
 /**
  * Returns the number of records returned by a select query.

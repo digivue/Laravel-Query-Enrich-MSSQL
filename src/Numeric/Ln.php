@@ -1,10 +1,10 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Numeric;
+namespace digivue\LaravelQueryEnrichMSSQL\Numeric;
 
 use Illuminate\Support\Facades\DB;
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\EDatabaseEngine;
+use digivue\LaravelQueryEnrichMSSQL\DBFunction;
+use digivue\LaravelQueryEnrichMSSQL\EDatabaseEngine;
 
 /**
  * Returns the natural logarithm of a number.

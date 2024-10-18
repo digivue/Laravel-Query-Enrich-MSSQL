@@ -1,12 +1,12 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Date;
+namespace digivue\LaravelQueryEnrichMSSQL\Date;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\EDatabaseEngine;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrichMSSQL\DBFunction;
+use digivue\LaravelQueryEnrichMSSQL\EDatabaseEngine;
+use digivue\LaravelQueryEnrichMSSQL\QE;
 
 /**
  * Returns the name of the month for a given date/datetime.

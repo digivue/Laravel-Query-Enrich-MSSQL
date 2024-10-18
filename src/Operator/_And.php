@@ -1,8 +1,8 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Operator;
+namespace digivue\LaravelQueryEnrichMSSQL\Operator;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrichMSSQL\DBFunction;
 
 /**
  * Combines multiple conditions with logical AND.

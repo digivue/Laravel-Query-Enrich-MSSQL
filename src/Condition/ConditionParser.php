@@ -1,9 +1,9 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Condition;
+namespace digivue\LaravelQueryEnrichMSSQL\Condition;
 
-use sbamtr\LaravelQueryEnrich\Exception\InvalidArgumentException;
-use sbamtr\LaravelQueryEnrich\Raw;
+use digivue\LaravelQueryEnrichMSSQL\Exception\InvalidArgumentException;
+use digivue\LaravelQueryEnrichMSSQL\Raw;
 
 /**
  * Responsible for parsing conditions for use in queries.

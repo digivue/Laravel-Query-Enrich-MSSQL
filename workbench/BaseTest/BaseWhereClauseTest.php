@@ -3,12 +3,12 @@
 namespace Workbench\BaseTest;
 
 use Illuminate\Support\Facades\DB;
-use sbamtr\LaravelQueryEnrich\Exception\InvalidArgumentException;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrichMSSQL\Exception\InvalidArgumentException;
+use digivue\LaravelQueryEnrichMSSQL\QE;
 use Workbench\App\Models\Author;
 use Workbench\App\Models\Book;
 
-use function sbamtr\LaravelQueryEnrich\c;
+use function digivue\LaravelQueryEnrichMSSQL\c;
 
 abstract class BaseWhereClauseTest extends BaseTest
 {

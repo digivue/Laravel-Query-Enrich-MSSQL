@@ -6,8 +6,8 @@ if-then-else statement in standard programming languages.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrichMSSQL\QE;
+use function digivue\LaravelQueryEnrichMSSQL\c;
 
 $books = Book::select(
     QE::case()

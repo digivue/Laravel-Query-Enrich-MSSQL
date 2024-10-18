@@ -1,11 +1,11 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\String;
+namespace digivue\LaravelQueryEnrichMSSQL\String;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use sbamtr\LaravelQueryEnrich\DBFunction;
-use sbamtr\LaravelQueryEnrich\EDatabaseEngine;
+use digivue\LaravelQueryEnrichMSSQL\DBFunction;
+use digivue\LaravelQueryEnrichMSSQL\EDatabaseEngine;
 
 /**
  * Left-pads a string with another string, to a certain length.

@@ -6,8 +6,8 @@ of numeric values. It takes a variable number of parameters, representing the va
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrichMSSQL\QE;
+use function digivue\LaravelQueryEnrichMSSQL\c;
 
 $orders = OrderItem::select(
     'id',

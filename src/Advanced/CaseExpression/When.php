@@ -1,8 +1,8 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich\Advanced\CaseExpression;
+namespace digivue\LaravelQueryEnrichMSSQL\Advanced\CaseExpression;
 
-use sbamtr\LaravelQueryEnrich\DBFunction;
+use digivue\LaravelQueryEnrichMSSQL\DBFunction;
 
 /**
  * Represents a WHEN clause within a SQL CASE expression.

@@ -7,8 +7,8 @@ and `$decimals`, representing the number of decimal places (defaulting to 0 if n
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrichMSSQL\QE;
+use function digivue\LaravelQueryEnrichMSSQL\c;
 
 $books = Book::select(
     'id',

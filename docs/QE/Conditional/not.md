@@ -6,8 +6,8 @@ condition to be negated. The resulting condition is true when the original condi
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrichMSSQL\QE;
+use function digivue\LaravelQueryEnrichMSSQL\c;
 
 $books = Book::select(
     QE::not(c('is_published'))->as('is_not_published'),

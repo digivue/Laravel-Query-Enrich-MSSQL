@@ -4,10 +4,10 @@ namespace Workbench\BaseTest;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrichMSSQL\QE;
 use Workbench\App\Models\Author;
 
-use function sbamtr\LaravelQueryEnrich\c;
+use function digivue\LaravelQueryEnrichMSSQL\c;
 
 abstract class BaseBasicFunctionsTest extends BaseTest
 {

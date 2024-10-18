@@ -1,9 +1,9 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich;
+namespace digivue\LaravelQueryEnrichMSSQL;
 
 use Illuminate\Support\Str;
-use sbamtr\LaravelQueryEnrich\Exception\InvalidArgumentException;
+use digivue\LaravelQueryEnrichMSSQL\Exception\InvalidArgumentException;
 
 /**
  * Represents a raw SQL expression.

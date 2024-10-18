@@ -6,7 +6,7 @@ parameter `$parameter`.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrichMSSQL\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::cot($x)->as('cot'),

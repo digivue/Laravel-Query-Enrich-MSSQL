@@ -7,7 +7,7 @@ representing the number of times the string should be repeated.
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
+use digivue\LaravelQueryEnrichMSSQL\QE;
 
 $queryResult = DB::selectOne(
     'select ' . QE::repeat($string, $number)->as('repeat')

@@ -1,6 +1,6 @@
 <?php
 
-namespace sbamtr\LaravelQueryEnrich;
+namespace digivue\LaravelQueryEnrichMSSQL;
 
 use DateTime;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
@@ -8,7 +8,7 @@ use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Database\Query\Expression;
 use Illuminate\Support\Facades\DB;
 use ReflectionClass;
-use sbamtr\LaravelQueryEnrich\Exception\DatabaseNotSupportedException;
+use digivue\LaravelQueryEnrichMSSQL\Exception\DatabaseNotSupportedException;
 
 /**
  * Abstract class representing a database function as an SQL expression.
@@ -124,20 +124,7 @@ abstract class DBFunction extends Expression
      */
     public function getDatabaseEngine(): EDatabaseEngine
     {
-        $driver = config('database.connections')[config('database.default')]['driver'];
-        switch ($driver) {
-            case 'mysql':
-            case 'mariadb':
-                return EDatabaseEngine::MySQL;
-            case 'pgsql':
-                return EDatabaseEngine::PostgreSQL;
-            case 'sqlite':
-                return EDatabaseEngine::SQLite;
-            case 'sqlsrv':
-                return EDatabaseEngine::SQLServer;
-            default:
-                throw new DatabaseNotSupportedException('Unknown database engine');
-        }
+        return EDatabaseEngine::SQLServer;
     }
 
     /**

@@ -6,8 +6,8 @@ monthName method. Both are used to retrieve the monthName part for a given date 
 ## Example Usage
 
 ```php
-use sbamtr\LaravelQueryEnrich\QE;
-use function sbamtr\LaravelQueryEnrich\c;
+use digivue\LaravelQueryEnrichMSSQL\QE;
+use function digivue\LaravelQueryEnrichMSSQL\c;
 
 $book = Book::select(
     'id',
